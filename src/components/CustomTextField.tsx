@@ -4,7 +4,6 @@ import { styled, useTheme } from "@mui/material/styles";
 
 type StyledTextFieldProps = TextFieldProps & {
   white?: boolean;
-  theme?: any;
 };
 
 const StyledTextField = styled(TextField, {
